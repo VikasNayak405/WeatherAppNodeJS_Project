@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vikas Nayak",
+  "author": "Vikas_Nayak :)",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.15",
