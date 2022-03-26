@@ -19,7 +19,7 @@
       * {
         padding: 0;
         margin: 0;
-        /* font-family: "Jost", sans-serif; */
+        font-family: "Jost", sans-serif;
         font-family: "Quicksand", sans-serif;
       }
 
@@ -249,7 +249,7 @@
         weathercon.innerHTML =
           "<i class='fas  fa-cloud' style='color:#f1f2f6;'></i>";
       }
-      //Author:suhel Roy
+      //Author: Vikas Nayak
       const getCurrentDay = () => {
         var week = ["Sunday","Monday","Tuseday","Wed","Thrusday","Friday","Saturday",];
 
@@ -273,13 +273,8 @@
 
         return `${day} ${monthNames[monthIndex]} | ${h}:${m}${x}`;
       }
-      //return `${day} ${monthNames[monthIndex]} | ${hours}:${mins}${periods}`;
-
-      ///return day + ' ' + monthNames[monthIndex] +' '+ periods;
-      //
-
+     
       currentDate.innerHTML = getCurrentDay() + " | " + formatDate(new Date());
-      //formatDate(new Date());
     </script>
   </body>
 </html>
